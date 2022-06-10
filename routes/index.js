@@ -10,8 +10,10 @@ router.get('/',homeController.home);
 router.get('/think',homeController.think);
 router.get('/user',homeController.user);
 router.get('/student',homeController.student);
+router.get('/emp',homeController.emp);
 router.use('/user',require('./users'));
 router.use('/student',require('./Students'));
+router.use('/emp',require('./Employee'));
 
 module.exports = router;
 

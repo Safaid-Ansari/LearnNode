@@ -8,6 +8,10 @@ const app = express();
 
 app.use('/',require('./routes'));
 
+// setup view engine 
+app.set('view engine','ejs');
+app.set('views','./views');
+
 // app.get('/',(req,res)=>{
 //   res.send('<h1>Hello Safaid-Ansari</h1>')
 // })
