@@ -10,3 +10,14 @@ module.exports.think = function(req,res){
     return res.send('<h1>What are you doing these days</h1>');
 
 }
+module.exports.user = function(req,res){
+
+    return res.send('<h1>Hello Dear User </h1>');
+
+}
+module.exports.student = function(req,res){
+
+    return res.send('<h1>Hello Dear Student </h1>');
+
+}
+

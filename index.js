@@ -6,7 +6,7 @@ const app = express();
 
 // use express router
 
-app.use('/',require('./routes/index'));
+app.use('/',require('./routes'));
 
 // app.get('/',(req,res)=>{
 //   res.send('<h1>Hello Safaid-Ansari</h1>')
